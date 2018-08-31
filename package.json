@@ -13,7 +13,7 @@
       "__TS_CONFIG__": "tsconfig.json"
     },
     "transform": {
-      "^.+\\.(ts|tsx|js|html)$": "./node_modules/ts-jest/preprocessor.js"
+      "^.+\\.(ts|tsx|js|html)$": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
     "moduleFileExtensions": [
@@ -38,10 +38,10 @@
   },
   "homepage": "https://github.com/perusworld/node-ts-base",
   "devDependencies": {
-    "@types/jest": "^22.2.3",
-    "@types/node": "^10.1.0",
-    "jest": "^22.4.3",
-    "ts-jest": "^22.4.6",
-    "typescript": "^2.8.3"
+    "@types/jest": "^23.3.1",
+    "@types/node": "^10.9.4",
+    "jest": "^23.5.0",
+    "ts-jest": "^23.1.4",
+    "typescript": "^3.0.3"
   }
 }
